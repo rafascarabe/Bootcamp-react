@@ -1,27 +1,16 @@
-
-import api from "./api";
+import "./utils/globals.js";
 import "./utils/globals.css";
 
+import Rotas from "./routes";
+import { ToastContainer } from "react-toastify";
+
 function App() {
-
-
-  function listar() {
-    api
-      .get()
-      .then((respostaObtida) => {
-
-        console.log(respostaObtida);
-      })
-      .catch((erroOcorrido) => {
-        // cairá aqui se houver algum erro durante a requisição 
-        console.log(erroOcorrido);
-      })
-  }
   return (
     <>
-      <h1>Titulo</h1>
-      <button onClick={listar}>Listar</button>
+      <Rotas />
+      <ToastContainer />
     </>
   );
 }
-export default App;  
+
+export default App;

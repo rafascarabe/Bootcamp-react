@@ -1,14 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import Musicas from "./pages/Musicas/musicas";
-import Home from './pages/home/Home';
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));//criei a araiz
+import App from "./App";
 
-root.render( //renderizei a raiz
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
   <React.StrictMode>
-    <Musicas />
+    <App />
   </React.StrictMode>
 );
-

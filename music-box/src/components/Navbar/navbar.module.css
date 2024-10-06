@@ -11,7 +11,6 @@
   background-color: #1e1e1e;
   justify-content: space-between;
 }
-
 .logo-inicio,
 .logo-fim {
   outline: none;
@@ -20,16 +19,13 @@
   max-height: 80%;
   align-items: center;
 }
-
 .logo-inicio {
   cursor: pointer;
 }
-
 .active {
   background-color: #e3073c !important;
 }
-
-navbar button {
+.navbar button {
   border: none;
   color: #fff;
   cursor: pointer;
@@ -39,22 +35,6 @@ navbar button {
   background-color: #dfa053;
   transition: background-color 0.3s ease;
 }
-
 .navbar button:hover {
-  background-color: #a77940;
-}
-
-nav button {
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  padding: 0.8rem 3.6rem;
-  border-radius: 5px;
-  background-color: #dfa053;
-  transition: background-color 0.3s ease;
-}
-
-nav button:hover {
   background-color: #a77940;
 }
